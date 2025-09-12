@@ -7,5 +7,15 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'basesAngular01';
+  title = 'Rafael Gonzalez';
+
+  duplicarNumero(valor:number):number{
+    return valor*2;
+  }
+
+  pelicula={
+    titulo: 'El Padrino',
+    anio: 1972,
+    genero: 'Crimen/Drama'
+  }
 }
